@@ -1,8 +1,6 @@
 package red.point.checkpoint.ui.pin.drop;
 
 import android.content.Intent;
-import android.location.Address;
-import android.location.Geocoder;
 import android.net.Uri;
 import android.os.Bundle;
 import android.os.Environment;
@@ -31,7 +29,6 @@ import java.util.ArrayList;
 import java.util.Calendar;
 import java.util.List;
 import java.util.Locale;
-import java.util.TimeZone;
 
 import javax.inject.Inject;
 
@@ -247,17 +244,7 @@ public class MyPinReportFragment extends MainFragment{
                             reportContent = reportContent.concat(",");
                         }
 
-                        Geocoder geocoder = new Geocoder(getContext(), Locale.getDefault());
-                        List<Address> addresses;
-                        try {
-                            addresses = geocoder.getFromLocation(pin.getLatitude(), pin.getLongitude(), 1);
-                            pin.setAddress(addresses.get(0).getAddressLine(0));
-                            reportContent = reportContent.concat(pin.getAddress()).concat(",");
-                        } catch (IOException e) {
-                            e.printStackTrace();
-                            reportContent = reportContent.concat(",");
-                        }
-
+                        reportContent = reportContent.concat(pin.getAddress()).concat(",");
                         reportContent = reportContent.concat("\r\n");
 
                         isDataLoaded = true;
