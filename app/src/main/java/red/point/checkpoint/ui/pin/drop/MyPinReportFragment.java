@@ -244,7 +244,12 @@ public class MyPinReportFragment extends MainFragment{
                             reportContent = reportContent.concat(",");
                         }
 
-                        reportContent = reportContent.concat(pin.getAddress()).concat(",");
+                        if (pin.getAddress() != null) {
+                            reportContent = reportContent.concat(pin.getAddress()).concat(",");
+                        } else {
+                            reportContent = reportContent.concat(",");
+                        }
+
                         reportContent = reportContent.concat("\r\n");
 
                         isDataLoaded = true;
