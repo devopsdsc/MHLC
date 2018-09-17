@@ -1,0 +1,97 @@
+<resources>
+    <string name="app_name">Pin Point</string>
+
+    <!-- Form Setup -->
+
+    <!-- Fab Employee Map -->
+    <string name="fab_check_in">Absen Datang</string>
+    <string name="fab_check_out">Absen Pulang</string>
+
+    <!-- Form Branch  -->
+    <string name="name">Nama</string>
+    <string name="address">Alamat</string>
+    <string name="latitude">Latitude</string>
+    <string name="longitude">longitude</string>
+
+    <!-- Form Employee -->
+    <string name="salary">Gaji</string>
+
+    <!-- Form Schedule -->
+    <string name="date">Tanggal</string>
+    <string name="shift_start">Shift Datang</string>
+    <string name="shift_end">Shift Pulang</string>
+
+    <!-- Form Button -->
+    <string name="create">Buat</string>
+    <string name="edit">Ubah</string>
+    <string name="delete">Hapus</string>
+    <string name="next">Next</string>
+    <string name="finish">Selesai</string>
+
+    <!-- Form Auth -->
+    <string name="email">Email</string>
+
+    <!-- Token Info -->
+
+    <string name="logo">Logo</string>
+
+    <string name="join">Bergabung</string>
+    <string name="save">Simpan</string>
+    <string name="nav_transaction">Transaksi</string>
+    <string name="create_a_new_company">Buat Perusahaan</string>
+    <string name="join_the_company">Gabung Perusahaan</string>
+    <string name="base_salary">Gaji pokok</string>
+
+
+    <string name="start_phone_auth">Kirim kode</string>
+    <string name="verify_phone_auth">Verifikasi</string>
+    <string name="resend_phone_auth">Kirim ulang</string>
+    <string name="hint_phone_number">Nomer Telepon</string>
+    <string name="hint_verification_code">Kode verifikasi</string>
+    <string name="status_code_sent">Kode terkirim</string>
+    <string name="status_verification_failed">Verifikasi gagal</string>
+    <string name="status_verification_succeeded">Verifikasi sukses</string>
+    <string name="change_phone_number">Ganti nomer telepon</string>
+
+    <string name="company_name">Nama Perusahaan</string>
+    <string name="default_notification_channel_id">Default Channel Notification ID</string>
+    <string name="no_shift">No Shift</string>
+    <string name="checkin_success">Terima kasih atas kehadiran anda</string>
+    <string name="checkout_success">Terima kasih atas kehadiran anda</string>
+    <string name="no_schedule">Anda tidak memiliki jadwal hari ini</string>
+    <string name="already_checkin">Anda telah melakukan absen sebelumnya</string>
+    <string name="already_checkout">Anda telah melakukan absen sebelumnya</string>
+    <string name="please_checkin_before_checkout">Silahkan absen datang terlebih dahulu</string>
+    <string name="not_in_working_hour">Anda tidak memiliki jadwal pada jam ini</string>
+    <string name="activate">Aktifasi</string>
+    <string name="fab_pin_drop">Drop Pin</string>
+    <string name="delete_company">Menghapus data perusahaan sifatnya permanen, semua data di perusahaan akan dihapus (TERMASUK e-wallet yang ada di perusahaan anda).</string>
+    <string name="agree">HAPUS</string>
+    <string name="click_here_to_view_on_map">Klik untuk melihat peta</string>
+    <string name="restricted_access">Access restricted only admin can have this access</string>
+    <string name="empty_branch">There is no branch</string>
+    <string name="cancel">cancel</string>
+    <string name="empty_schedule">There is no schedule</string>
+    <string name="coming_soon">Coming Soon</string>
+
+    <string name="location_rationale">This app needs the Location permission, please accept to use location functionality</string>
+    <string name="attendance">Attendance</string>
+    <string name="sales_visitation">Sales Visitation</string>
+    <string name="notification">Notification</string>
+    <string name="sign_out">Sign Out</string>
+    <string name="schedule">Schedule</string>
+    <string name="promote_admin">Promote Admin</string>
+    <string name="revoke_admin">Revoke Admin</string>
+    <string name="remove_user_notification">Are you sure to remove this user? this will remove all user history, schedule and report from your database</string>
+    <string name="setting">Setting</string>
+    <string name="attendance_report">Attendance Report</string>
+    <string name="pin_location">Pin Location</string>
+    <string name="no_pin_location_tag">Tidak ada tag lokasi di (1km) sekitar area anda</string>
+    <string name="location_name">Location Name</string>
+    <string name="check_in_too_early">Check in too early</string>
+    <string name="cannot_find_your_location">Cannot find your location</string>
+    <string name="drop_pin_report">Drop Pin Report</string>
+    <string name="referral_code">Referral Code</string>
+    <string name="referral_code_hint">Enter referral code to get reward point</string>
+
+</resources>

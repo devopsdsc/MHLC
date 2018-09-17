@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="nav_attendance">Absensi</string>
+    <string name="nav_schedule">Jadwal</string>
+    <string name="nav_report">Laporan</string>
+    <string name="nav_employee">Pegawai</string>
+    <string name="nav_branch">Cabang</string>
+    <string name="nav_shift">Shift</string>
+    <string name="nav_wallet">Dompet</string>
+    <string name="nav_manage">Kelola</string>
+    <string name="nav_more">More</string>
+    <string name="nav_home">Home</string>
+    <string name="nav_drop_pin">Drop Pin</string>
+    <string name="nav_reward">Reward</string>
+    <string name="nav_account">Account</string>
+
+    <string name="menu_company">Company</string>
+    <string name="menu_employee">Employee</string>
+    <string name="menu_wallet">Wallet</string>
+    <string name="menu_setting">Setting</string>
+    <string name="menu_branch">Branch</string>
+    <string name="menu_shift">Shift</string>
+    <string name="menu_schedule">Schedule</string>
+    <string name="menu_pin_location">Pin Location</string>
+    <string name="menu_attendance_report">Attendance Report</string>
+    <string name="menu_pin_report">Pin Report</string>
+</resources>

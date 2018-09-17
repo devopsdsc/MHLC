@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#F5F5F5</color>
+    <color name="colorPrimaryDark">#2B2B2B</color>
+    <color name="colorAccent">#2B2B2B</color>
+
+    <color name="menu_unselected">#314759</color>
+    <color name="menu_selected">#32425b</color>
+
+    <color name="home_icon">#283593</color>
+    <color name="wallet_icon">#4E342E</color>
+    <color name="setting_icon">#37474F</color>
+    <color name="report_icon">#2E7D32</color>
+    <color name="branch_icon">#C62828</color>
+    <color name="employee_icon">#F9A825</color>
+    <color name="shift_icon">#1565C0</color>
+    <color name="schedule_icon">#2E7D32</color>
+
+    <color name="appBarLight">#F5F5F5</color>
+
+    <color name="appBarDark">#212121</color>
+    <color name="backgroundSplash">#C62828</color>
+    <color name="backgroundDark">#303030</color>
+
+    <color name="white">#ffffff</color>
+
+    <!-- Screens background color-->
+    <color name="bg_screen1">#454d5a</color>
+    <color name="bg_screen2">#313946</color>
+    <color name="bg_screen3">#5052b7</color>
+    <color name="bg_screen4">#237164</color>
+
+    <!-- dots inactive colors -->
+    <color name="dot_dark_screen1">#d1395c</color>
+    <color name="dot_dark_screen2">#094840</color>
+    <color name="dot_dark_screen3">#454d5a</color>
+    <color name="dot_dark_screen4">#14a895</color>
+
+    <!-- dots active colors -->
+    <color name="dot_light_screen1">#f98da5</color>
+    <color name="dot_light_screen2">#8cf9eb</color>
+    <color name="dot_light_screen3">#93c6fd</color>
+    <color name="dot_light_screen4">#e4b5fc</color>
+
+    <array name="array_dot_active">
+        <item>@color/dot_light_screen1</item>
+        <item>@color/dot_light_screen2</item>
+        <item>@color/dot_light_screen3</item>
+        <item>@color/dot_light_screen4</item>
+    </array>
+
+    <array name="array_dot_inactive">
+        <item>@color/dot_dark_screen1</item>
+        <item>@color/dot_dark_screen2</item>
+        <item>@color/dot_dark_screen3</item>
+        <item>@color/dot_dark_screen4</item>
+    </array>
+
+    <!--FIREBASE-->
+    <color name="grey_100">#F5F5F5</color>
+
+    <!-- PLACEHOLDER -->
+    <color name="placeholder_bg">#dddddd</color>
+</resources>

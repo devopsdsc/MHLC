@@ -1,0 +1,101 @@
+<resources>
+    <string name="app_name">Pin Point</string>
+
+    <!-- Form Setup -->
+
+    <!-- Fab Employee Map -->
+    <string name="fab_check_in">Check In</string>
+    <string name="fab_check_out">Check Out</string>
+
+    <!-- Form Branch  -->
+    <string name="name">Name</string>
+    <string name="address">Address</string>
+    <string name="latitude">Latitude</string>
+    <string name="longitude">longitude</string>
+
+    <!-- Form Employee -->
+    <string name="salary">Salary</string>
+
+    <!-- Form Schedule -->
+    <string name="date">Date</string>
+    <string name="shift_start">Shift Start</string>
+    <string name="shift_end">Shift End</string>
+
+    <!-- Form Button -->
+    <string name="create">Create</string>
+    <string name="edit">Edit</string>
+    <string name="delete">Delete</string>
+    <string name="next">Next</string>
+    <string name="finish">Finish</string>
+
+    <!-- Form Auth -->
+    <string name="email">Email</string>
+
+    <!-- Token Info -->
+
+    <string name="logo">Logo</string>
+
+    <string name="join">Join</string>
+    <string name="save">Save</string>
+    <string name="nav_transaction">Transaction</string>
+    <string name="create_a_new_company">Create company</string>
+    <string name="join_the_company">Join company</string>
+    <string name="base_salary">Base Salary</string>
+
+
+    <string name="start_phone_auth">Request code</string>
+    <string name="verify_phone_auth">Verify</string>
+    <string name="resend_phone_auth">Resend code</string>
+    <string name="hint_phone_number">phone number</string>
+    <string name="hint_verification_code">verification code</string>
+    <string name="status_code_sent">Code Sent</string>
+    <string name="status_verification_failed">Verification failed</string>
+    <string name="status_verification_succeeded">Verification succeeded</string>
+    <string name="change_phone_number">Change Phone Number</string>
+
+    <string name="company_name">Company Name</string>
+    <string name="default_notification_channel_id">Default Channel Notification ID</string>
+    <string name="no_shift">No Shift</string>
+    <string name="checkin_success">Thank you for your attendance</string>
+    <string name="checkout_success">Thank you for your attendance</string>
+    <string name="no_schedule">You currently have no schedule</string>
+    <string name="already_checkin">You already checked in</string>
+    <string name="already_checkout">You already checked out</string>
+    <string name="please_checkin_before_checkout">You cannot check out before checked in</string>
+    <string name="not_in_working_hour">You don\'t have schedule this time</string>
+    <string name="activate">Activate</string>
+    <string name="fab_pin_drop">Drop Pin</string>
+    <string name="delete_company">This action CANNOT be undone. This will permanently delete the data from the database (INCLUDING your e-wallet balance).</string>
+    <string name="agree">I AGREE</string>
+    <string name="click_here_to_view_on_map">Click here to view on map</string>
+    <string name="restricted_access">Access restricted only admin can have this access</string>
+    <string name="empty_branch">There is no branch</string>
+    <string name="cancel">cancel</string>
+    <string name="empty_schedule">There is no schedule</string>
+    <string name="coming_soon">Coming Soon</string>
+
+    <string name="base64PublicKey">BAQADIQco7a6x3OBrgOINXIFj54F2ElypLt22LnJEegtpa7qqpEXG65cZiNobc9enQoSh2Vfpn9im8eq/UE2h7ZcyZNprG589ZE6W7onLLp2VrVbp2duZiS0EtiUKQHAwzc9U0/eU8US3XjRfsi/eav5wHBOaSU979J+U7W7PvZw/mFPOBm7GxRV3VDlCYA7GcbJJAAOzfxmxx6IfnyUVGLqtihTxXUW+cAjg6iSG9qNUdvuqpmOAWphsy87F7OyD+0PQLpR+QQkbHsH3lMrf3mhp7LQyZanXOJjNBSc4MiPbAgPvN2tdVCvodERH1yPXtmmPl6MAQijZeCMEHD4QmXj6PXyAEQACKgCBIIMA8QACOAAFEQAB0w9GikhqkgBNAjIBIIM</string>
+
+    <string name="location_rationale">This app needs the Location permission, please accept to use location functionality</string>
+    <string name="attendance">Attendance</string>
+    <string name="sales_visitation">Sales Visitation</string>
+    <string name="notification">Notification</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="sign_out">Sign Out</string>
+    <string name="schedule">Schedule</string>
+    <string name="promote_admin">Promote Admin</string>
+    <string name="revoke_admin">Revoke Admin</string>
+    <string name="remove_user_notification">Are you sure to remove this user? this will remove all user history, schedule and report from your database</string>
+    <string name="setting">Setting</string>
+    <string name="attendance_report">Attendance Report</string>
+    <string name="pin_location">Pin Location</string>
+    <string name="no_pin_location_tag">There is no pin location tag in around 1km</string>
+    <string name="location_name">Location Name</string>
+    <string name="check_in_too_early">Check in too early</string>
+    <string name="cannot_find_your_location">Cannot find your location</string>
+    <string name="drop_pin_report">Drop Pin Report</string>
+    <string name="referral_code">Referral Code</string>
+    <string name="referral_code_hint">Enter referral code to get reward point</string>
+</resources>

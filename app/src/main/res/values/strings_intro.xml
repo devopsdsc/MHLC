@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="skip">SKIP</string>
+    <string name="start">GOT IT</string>
+
+    <string name="slide_1_title">Pin Point</string>
+    <string name="slide_1_desc">the easiest way to record attendance and sales visit</string>
+
+    <string name="slide_2_title">Phone Check-In</string>
+    <string name="slide_2_desc">check-in and drop pin only with your phone based on your location</string>
+
+    <string name="slide_3_title">Schedule</string>
+    <string name="slide_3_desc">manage shift and schedule on the cloud</string>
+
+    <string name="slide_4_title">Salary Report</string>
+    <string name="slide_4_desc">get your salary and claim reward by performance based instantly</string>
+</resources>

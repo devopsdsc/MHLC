@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <data>
+        <variable name="generalMenu" type="red.point.checkpoint.ui.attendance.menu.AttendanceMenu"/>
+    </data>
+
+    <LinearLayout
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:foreground="?android:attr/selectableItemBackground"
+        android:clickable="true"
+        android:gravity="center_horizontal"
+        android:layout_gravity="center_horizontal"
+        android:paddingBottom="10dp"
+        android:orientation="vertical"
+        android:focusable="true">
+
+        <ImageView
+            android:id="@+id/image"
+            android:layout_gravity="center_horizontal"
+            android:background="@drawable/border"
+            android:cropToPadding="true"
+            android:layout_margin="3dp"
+            android:padding="10dp"
+            android:layout_width="48dp"
+            android:layout_height="48dp" />
+
+        <TextView
+            android:id="@+id/title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:textAllCaps="true"
+            android:textColor="#9e9e9e"
+            android:textSize="9sp" />
+
+    </LinearLayout>
+</layout>

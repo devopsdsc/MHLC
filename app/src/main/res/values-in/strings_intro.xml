@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="skip">SKIP</string>
+    <string name="start">GOT IT</string>
+
+    <string name="slide_1_title">Pin Point</string>
+    <string name="slide_1_desc">Cara paling mudah untuk mengatur absensi dan kunjungan sales</string>
+
+    <string name="slide_2_title">Phone Check-In</string>
+    <string name="slide_2_desc">check-in dan drop pin menggunakan handphone dengan mencocokan lokasi</string>
+
+    <string name="slide_3_title">Schedule</string>
+    <string name="slide_3_desc">Atur jadwal tiap karyawan anda di setiap cabang yang ada</string>
+
+    <string name="slide_4_title">Salary Report</string>
+    <string name="slide_4_desc">Perhitungan gaji otomatis sesuai dengan kehadiran karyawan</string>
+</resources>

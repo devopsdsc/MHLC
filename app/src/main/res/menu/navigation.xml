@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/nav_home"
+        android:icon="@drawable/ic_home_selector"
+        android:title="@string/nav_home" />
+
+    <item
+        android:id="@+id/nav_attendance"
+        android:icon="@drawable/ic_attendance_selector"
+        android:title="@string/nav_attendance" />
+
+    <item
+        android:id="@+id/nav_drop_pin"
+        android:icon="@drawable/ic_drop_pin_selector"
+        android:title="@string/nav_drop_pin" />
+
+    <item
+        android:id="@+id/nav_reward"
+        android:icon="@drawable/ic_reward_selector"
+        android:title="@string/nav_reward" />
+
+    <item
+        android:id="@+id/nav_account"
+        android:icon="@drawable/ic_account_selector"
+        android:title="@string/nav_account" />
+
+</menu>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/counterPanel"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:clipToPadding="false"
+    android:focusable="true">
+
+    <ImageView
+        android:id="@+id/counterBackground"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_alarm"/>
+
+    <TextView
+        android:id="@+id/badge"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@id/counterBackground"
+        android:layout_alignRight="@id/counterBackground"
+        android:layout_alignTop="@id/counterBackground"
+        android:background="@drawable/badge_circle"
+        android:gravity="right"
+        android:paddingEnd="3dp"
+        android:paddingStart="3dp"
+        android:paddingLeft="3dp"
+        android:paddingRight="3dp"
+        android:text="10"
+        android:textColor="@color/white"
+        android:textSize="10sp" />
+</RelativeLayout>
